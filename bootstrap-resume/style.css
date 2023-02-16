@@ -1,0 +1,39 @@
+.profileImg {
+  width: 100px;
+  border-radius: 50%;
+}
+*{
+  /* padding: 0 !important; */
+  margin: 0% !important;
+  padding: 0% !important;
+}
+.container-fluid{
+  width: 100% !important;
+}
+.details{
+  margin-top: 20% !important;
+}
+#profile:target{
+  display: block !important;
+}
+#education:target{
+  display: block !important;
+}
+#skills:target{
+  display: block !important;
+}
+#exp:target{
+  display: block !important;
+}
+#interests:target{
+  display: block !important;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  nav{
+  height: 100vh;
+}
+}
